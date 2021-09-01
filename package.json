@@ -1,6 +1,6 @@
 {
   "name": "@nhamata/graphql-parser",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "parses a GraphQL schema file and generates an object that represents it. Follows 2018 GraphQL schema specification. Has no dependencies",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "clean": "del ./build/*",
-    "build": "npm run clean && tsc",
+    "build": "npm run clean && tsc && del ./build/__test__",
     "test": "jest",
     "test:ci": "jest"
   },
@@ -21,7 +21,7 @@
     "preset": "ts-jest"
   },
   "keywords": [
-    "GraphQ:",
+    "GraphQL",
     "Parser",
     "Code-Generation"
   ],
