@@ -1,0 +1,14 @@
+name: CI
+
+on: 
+  pull_request: #specific to pr on service
+    paths:
+      - 'src/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run tests
+        run: npm install && npm run test:ci
