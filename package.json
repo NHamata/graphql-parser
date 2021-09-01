@@ -21,7 +21,7 @@
     "preset": "ts-jest"
   },
   "keywords": [
-    "GraphQ:",
+    "GraphQL",
     "Parser",
     "Code-Generation"
   ],
