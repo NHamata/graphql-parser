@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "clean": "del ./build/*",
-    "build": "npm run clean && tsc",
+    "build": "npm run clean && tsc && del ./build/__test__",
     "test": "jest",
     "test:ci": "jest"
   },
