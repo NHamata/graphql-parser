@@ -1,4 +1,8 @@
-# graphql-parser
+# GraphQL Schema Parser
+
+npmjs link:
+https://www.npmjs.com/package/graphql-schema-parser
+
 ### Description
 This is a minimal, tool with documented source code, and well defined type definitions used to parse graphql schema text according to the 2018 spec. It generates an object that has properties corresponding to the input graphql schema. There are absolutely no dependencies, this utility was made using only the basic node libraries. It is intended to be simple minimal and easy to use so you can extend it to whatever use that fits your needs. Most tools, may not support the full spec and have bloated dependencies, or is nested in a larger module which may not be useful. This module is fairly simple and follows the current graphql 2018 spec including nested directives (which many current popular libraries have difficulty with). It well defines each component via typescript type definitions.
 <br/>
