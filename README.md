@@ -15,13 +15,13 @@ This is useful as many projects have their own domain specific languages for int
 <br/>
 In order to utilize this library you must issue at the root
 ```
-npm install @nhamata/graphql-parser
+npm install graphql-schema-parser
 ```
 <br/>
 then import:
 
 ```
-import { generateSchemaObject } from '@nhamata/graphql-parser'
+import { generateSchemaObject } from 'graphql-schema-parser'
 ```
 
 Then you can use the schema object as you desire. Thats all there is needed, a single funcitonal call
