@@ -1,5 +1,5 @@
 {
-  "name": "@nhamata/graphql-parser",
+  "name": "graphql-schema-parser",
   "version": "1.0.3",
   "description": "parses a GraphQL schema file and generates an object that represents it. Follows 2018 GraphQL schema specification. Has no dependencies",
   "main": "./build/index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NHamata/graphql-parser.git"
+    "url": "https://github.com/NHamata/graphql-schema-parser.git"
   },
   "jest": {
     "preset": "ts-jest"
