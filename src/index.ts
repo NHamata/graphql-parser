@@ -1,7 +1,1 @@
-import{
-    generateSchemaObject
-} from './parser/graphql-schema-parser'
-
-export {
-    generateSchemaObject
-}
+export * from './parser/graphql-schema-parser';

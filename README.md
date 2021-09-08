@@ -4,13 +4,13 @@ npmjs link:
 https://www.npmjs.com/package/graphql-schema-parser
 
 ### Description
-This is a minimal, tool with documented source code, and well defined type definitions used to parse graphql schema text according to the 2018 spec. It generates an object that has properties corresponding to the input graphql schema. There are absolutely no dependencies, this utility was made using only the basic node libraries. It is intended to be simple minimal and easy to use so you can extend it to whatever use that fits your needs. Most tools, may not support the full spec and have bloated dependencies, or is nested in a larger module which may not be useful. This module is fairly simple and follows the current graphql 2018 spec including nested directives (which many current popular libraries have difficulty with). It well defines each component via typescript type definitions.
+This is a minimal, tool with documented source code, and well defined type definitions used to parse graphql schema text according to the 2018 spec. It generates an object that has properties corresponding to the input graphql schema. There are absolutely no dependencies, this utility was made using only the basic node libraries. It is intended to be simple minimal and easy to use so you can extend it to whatever use that fits your needs. This module is fairly simple and follows the current graphql 2018 spec including nested directives. 
 <br/>
 <br/>  
 
 ### Use Cases
 I built this tool so that any commonly used object within the entire scope of a project, such as error events, general logs etc. can also be defined using a graphql schema specification. This standardizes the language throught a project such that the end points and internal domain language throughout the project would be concretely specified using the same specification. 
-This is useful as many projects have their own domain specific languages for interacting with components or services, this tool is useful for making a well defined specification of this domain language. This is especially useful for languages that may not have current or feature filled graphql libraries yet, as this tool can be used to generate your own client library based on schema text. The intention of a tool like this is to leverage this utility and extend it for tasks such as code generation for a client, or request/response format checks. General code generators using this parsing library will be made, of course they may not satisfies your needs as generators can be quite specific to a project
+This is useful as many projects have their own domain specific languages for interacting with components or services.
 <br/>
 <br/>
 In order to utilize this library you must issue at the root
